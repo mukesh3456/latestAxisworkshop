@@ -55,11 +55,25 @@
     width:120px;
     height: 60px;
 }
+.email{
+    margin-top: 25px;
+}
+.emaitop{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
 }
 @media(max-width:768px){
     .logoimg{
-        width:100px;
-        height: 50px;
+        width:80px;
+        height: 40px;
+    }
+    .email{
+        margin-top: 35px;
+    }
+    .address{
+        font-size: 11px;
     }
 }
 .ltn__contact-message-area{
